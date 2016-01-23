@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js1.js"></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <style>
+ 
+     p {
+    text-align: center;
+    font-size: 24px;
+    }
+    p#p2 {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 150px;
+    float: left;
+    }
+    form {
+    position: absolute;
+    margin-left: 550px;
+    margin-right: auto;
+    }
+   button, input {
+        border: 0;
+        padding: 12px;
+        font-size: 18px;
+        }
+    button, input[type="submit"] {
+        color: black;
+        background: limegreen;
+        }
+ body {
+    text-align: center;
+    background: url("hangzhou.jpg");
+    color: white;
+    font-family: Helvetica;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+   div#div1 {
+    position: relative;
+    float: right;
+    border: 2px, solid, grey;
+    background-color: grey;
+    border-radius: 15px;
+   }
+   div#div2 {
+   position: relative;
+    float: right;
+    border: 2px, solid, grey;
+   font-size: 26px;
+   color: purple;
+   margin-top: -120px;
+   margin-left: -30px;
+   border-radius: 15px;
+   }
+   ul {
+   list-style-type: none;
+   padding-left: 3px;
+   padding-right: 3px;
+   }
+   a {
+   text-decoration: none;
+   color: orange;
+   }
+   a:hover {
+   text-decoration: underline;
+   }
+ </style>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <script type="text/javascript" src="js2.js"></script>
+    
+   <div id="div1"><img src="seaside.png" height="300" width="300"></div>
+<p id="p1">Hi! I am learning how to make
+my very own web page! I really like
+blueberry muffins and long walks on
+the beach.</p>
+<p id="p2">Memory</p>
+<form>
+<input id="input1" type="text" placeholder="Enter something">
+ <input type="submit" value="Submit">
+</form>
+<div id="div2">
+<ul>
+<li><a href="slider/slider.html">Photo slider</a></li>
+<li><a href="musicplayer/Player.html">Music player</a></li>
+<li><a href="orbit/orbit.html">Family orbit</a></li>
+<ul>
+</div>
+<script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
